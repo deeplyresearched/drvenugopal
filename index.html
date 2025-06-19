@@ -3,23 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Venugopal - About Me</title>
+    <title>Dr. Venugopal - Futuristic Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+    <div id="tsparticles"></div>
     <header>
         <h1>Dr. Venugopal</h1>
-        <p class="tagline">Photography Enthusiast 📸 | Globetrotter 👣 | Loves Reading 📖</p>
+        <p class="tagline">
+            <i class="fas fa-camera-retro"></i> Photography | 
+            <i class="fas fa-globe"></i> Globetrotter | 
+            <i class="fas fa-book-reader"></i> Book Lover
+        </p>
     </header>
 
+    <div class="floating-nav">
+        <a href="#bio"><i class="fas fa-user"></i></a>
+        <a href="#gallery"><i class="fas fa-image"></i></a>
+    </div>
+
     <main>
-        <section class="bio-section">
+        <section class="bio-section" id="bio" data-aos="fade-up">
             <h2>About Me</h2>
             <p>Hello! I'm Dr. Venugopal, a passionate individual currently on a journey to solve the mystery of life. My world is illuminated by the art of photography, capturing moments and stories as I explore new horizons across the globe. When I'm not behind the lens or traversing new lands, you'll often find me immersed in the pages of a good book.</p>
             <p>I'm constantly learning and evolving, always ready to overpower and overkill any challenge that comes my way.</p>
         </section>
 
-        <section class="carousel-section">
+        <section class="carousel-section" id="gallery" data-aos="fade-up">
             <h2>My Adventures & Glimpses</h2>
             <div class="carousel-container">
                 <div class="carousel-slide">
@@ -35,9 +48,16 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Dr. Venugopal. All rights reserved.</p>
+        <p>&copy; 2025 Dr. Venugopal</p>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>

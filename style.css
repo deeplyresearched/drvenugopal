@@ -143,6 +143,13 @@ footer a {
     font-size: 1.4rem;
 }
 
+.custom-icon {
+    height: 1.1em;      /* Makes the icon's height match the text size */
+    width: auto;        /* Keeps the icon's aspect ratio */
+    vertical-align: middle; /* Aligns the icon nicely with the text */
+    margin-right: 5px;  /* Adds a little space between the icon and the text */
+}
+
 @media (max-width: 768px) {
     header h1 { font-size: 2em; }
     .carousel-slide img { height: auto; }

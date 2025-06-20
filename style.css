@@ -58,6 +58,7 @@ main {
 .bio-section p {
     margin-bottom: 1rem;
     text-align: justify;
+    font-weight: 600;
 }
 
 .carousel-container {
@@ -141,15 +142,6 @@ footer a {
     margin: 10px 0;
     color: #ecf0f1;
     font-size: 1.4rem;
-}
-
-.custom-icon {
-    height: 1.2em; /* Set height relative to the parent font size */
-    width: 1.2em;  /* Set width relative to the parent font size */
-    vertical-align: middle; /* Best for aligning with text */
-    margin: 0 5px; /* Adds a bit of space around the icon */
-    position: relative; /* Helps with fine-tuning position */
-    top: -2px; /* Adjust this value to perfectly align the icon vertically */
 }
 
 @media (max-width: 768px) {

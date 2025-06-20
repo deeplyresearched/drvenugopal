@@ -144,8 +144,8 @@ footer a {
 }
 
 .custom-icon {
-    height: 5em; /* Set height relative to the parent font size */
-    width: 5em;  /* Set width relative to the parent font size */
+    height: 15em; /* Set height relative to the parent font size */
+    width: 15em;  /* Set width relative to the parent font size */
     vertical-align: middle; /* Best for aligning with text */
     margin: 0 5px; /* Adds a bit of space around the icon */
     position: relative; /* Helps with fine-tuning position */

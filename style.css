@@ -144,10 +144,12 @@ footer a {
 }
 
 .custom-icon {
-    height: 1.1em;      /* Makes the icon's height match the text size */
-    width: auto;        /* Keeps the icon's aspect ratio */
-    vertical-align: middle; /* Aligns the icon nicely with the text */
-    margin-right: 5px;  /* Adds a little space between the icon and the text */
+    height: 1em; /* Set height relative to the parent font size */
+    width: 1em;  /* Set width relative to the parent font size */
+    vertical-align: middle; /* Best for aligning with text */
+    margin: 0 5px; /* Adds a bit of space around the icon */
+    position: relative; /* Helps with fine-tuning position */
+    top: -2px; /* Adjust this value to perfectly align the icon vertically */
 }
 
 @media (max-width: 768px) {

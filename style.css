@@ -148,6 +148,36 @@ footer a {
     font-size: 1.4rem;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    margin-top: 1rem;
+}
+
+/* Individual icon style */
+.social-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;  /* Size of the circle */
+    height: 45px; /* Size of the circle */
+    background-color: #333; /* Dark grey background */
+    color: #ecf0f1; /* Light icon color */
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 50%; /* This makes the link a perfect circle */
+    transition: all 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+/* The glow and highlight effect on hover */
+.social-icon:hover {
+    background-color: #fff; /* Background becomes white on hover */
+    color: #111; /* Icon becomes dark on hover */
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* The white glow effect */
+}
+
 @media (max-width: 768px) {
     header h1 { font-size: 2.2em; }
     .tagline { font-size: 1em; }
